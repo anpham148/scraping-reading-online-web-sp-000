@@ -5,4 +5,4 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(html)
 
-doc.css("inlineMobileLeft-2Yo002 imageTextBlockGrid2-3jXtmC")
+courses = doc.css("#id-f88b49f0-3792-5b36-adbf-65b9eab688a5 .inlineMobileLeft-2Yo002 imageTextBlockGrid2-3jXtmC")
